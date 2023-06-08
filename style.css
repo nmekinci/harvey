@@ -22,3 +22,40 @@ i{
     /* justify-content: center;
     align-items: center; */
 }
+
+/* <!-- ****************** our team  area --> */
+#mark{
+    width: 250px;
+    height: 250px;
+    border-width: 10px;
+
+}
+.twit, .face, .link {
+    width: 40px;
+    height: 40px;
+    background-color:black;
+    border-radius: 50%; /* bu, div'i yuvarlak yapar */
+    display: flex; /* bu, içindeki elementleri yatay olarak hizalar */
+    justify-content: center; /* bu, içindeki elementleri yatay olarak merkeze alır */
+    align-items: center; /* bu, içindeki elementleri dikey olarak merkeze alır */
+    
+    color: white;
+    margin-right: 1px; /* sağ tarafında boşluk oluşturur */
+    margin-left: 1px; 
+}
+/* <!-- ************contact us --> */
+#contact{
+    background-image: url(./img/map.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: auto;
+    padding-top: 14rem;
+}
+
+@media screen and (max-width: 1200px) {
+    #portfolio {
+        width: 70% !important;
+        height: auto !important;
+    }
+}
